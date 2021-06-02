@@ -41,7 +41,7 @@ public class DiscountTest {
 		public void testHaveBusiness() throws Throwable {
 			Identity identity = new Identity(25, false, false);
 			Discount discount = new Discount(identity, "2021-05-26 週三 10:30:00");
-			Assertions.assertEquals(1, discount.getDiscount());
+			Assertions.assertEquals(2, discount.getDiscount());
 		}
 	}
 }
